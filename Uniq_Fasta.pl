@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 ##
 #   Use : To remove duplicates from fasta file
 #   Require : preinstalled BioPerl (Bio::SeqIO)
