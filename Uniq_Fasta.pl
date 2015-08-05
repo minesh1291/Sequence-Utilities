@@ -1,4 +1,5 @@
 ##
+#   Use : To remove duplicates from fasta file
 #	Require : preinstalled BioPerl (Bio::SeqIO)
 #	Usage : perl Uniq_Fasta.pl <InputFile> > <OutputFile>
 ##
