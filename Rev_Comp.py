@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 ##
 #	Use : To make reverse compliment of multiple fasta 
 #	Require : preinstalled BioPython
