@@ -1,5 +1,5 @@
 ##
-#	Required : preinstalled BioPerl (Bio::SeqIO)
+#	Require : preinstalled BioPerl (Bio::SeqIO)
 #	Usage : perl Uniq_Fasta.pl <InputFile> > <OutputFile>
 ##
 
