@@ -42,8 +42,12 @@ foreach my$k1 (sort(keys(%mat))){
 	
 	foreach my$k2 (sort(keys($mat{$k1}))){
 	
-	print "\t",$mat{$k1}->{$k2};
-	
+	if(defined($mat{$k1}->{$k2})){
+		print "\t",$mat{$k1}->{$k2};
+		}else{
+			print "\t0";
+			}
+		
 		}
 	
 	}
