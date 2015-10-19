@@ -34,20 +34,23 @@ foreach my$line (@aln){
 	
 	}
 
-print "\t",join("\t",sort(keys(%mat)));
 
-foreach my$k1 (sort(keys(%mat))){
+my@labels = keys(%mat);
+@labels = sort (@labels);
+
+print "\t",join("\t",@labels);
+
+foreach my$k1 (@labels){
 	
 	print "\n",$k1;
 	
-	foreach my$k2 (sort(keys($mat{$k1}))){
+	foreach my$k2 (@labels){
 	
 	if(defined($mat{$k1}->{$k2})){
 		print "\t",$mat{$k1}->{$k2};
 		}else{
 			print "\t0";
 			}
-		
 		}
 	
 	}
