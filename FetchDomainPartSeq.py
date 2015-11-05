@@ -56,7 +56,7 @@ def parse_pfam(pfamFile,domName):
 		line = line.strip()
 		if '#' not in line and len(line) :
 			reader = re.split(r'\s+',line)
-			if reader[5] == domName:
+			if reader[5] == domName: # 5/6
 				#test
 				#~ print reader[0],reader[5],reader[1],reader[2]
 				outContent+=get_seq(reader[0],int(reader[1]),int(reader[2]))+"\n"
